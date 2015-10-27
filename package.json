@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec --compilers babel:babel/register ./test/**/*.js"
+    "test": "./node_modules/.bin/mocha --reporter spec --compilers babel:babel/register ./test/**/*.js",
+    "start": "node index.js"
   },
   "author": "William Calderipe <wcalderipe@gmail.com>",
   "license": "MIT",
