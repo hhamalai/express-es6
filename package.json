@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec --compilers babel:babel/register ./test/**/*.js"
   },
   "author": "William Calderipe <wcalderipe@gmail.com>",
   "license": "MIT",
@@ -15,5 +15,10 @@
     "express": "4.x",
     "method-override": "^2.3.5",
     "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3",
+    "supertest": "^1.1.0"
   }
 }
